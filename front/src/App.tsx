@@ -19,7 +19,7 @@ function App() {
       <InputForm />
       <ul className="todo-list">
         {todos.map((todo: TodoType) => (
-          <Todo todo={todo} />
+          <Todo key={todo.id} todo={todo} />
         ))}
       </ul>
     </Wrapper>
