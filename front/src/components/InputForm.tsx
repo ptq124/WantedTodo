@@ -27,7 +27,7 @@ const InputForm = () => {
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          placeholder="할 일을 입력하세요"
+          placeholder="입력"
         />
         <Button type="submit" className="add-btn">
           추가
